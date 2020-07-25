@@ -1,0 +1,102 @@
+.caption{
+  font-size: 17px;
+  font-family: 'Merriweather', serif;
+}
+
+.edit{
+    padding-top: 3%;
+    width: 100%;
+  }   
+
+.nav>li{
+  font-weight: bold;
+ font-family: 'Merriweather', serif;
+ font-size: 100%;
+}
+    
+       .head2{
+       	margin-left: 13%;
+       }
+       body{
+        overflow-x: hidden;
+       }
+       .li1:hover{
+        background-color: #fff;
+      }
+        .imageclass{
+          margin: 0 auto;
+          margin-left: 18%;
+          position: relative;
+          margin-top: 2%;
+            margin-bottom: 2%;
+          height:46vh;
+          width: 60vw;
+        }
+        .float-left{
+           position: relative;
+          margin-left: 4%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+      .para1{
+        padding: 3%;
+      }
+      .heading{
+        margin-left: 1%;
+      }
+      .images1{
+        margin-left: 10%;
+        width: 90%;
+      }
+      .well{
+        background-color: #fff;
+        border: none;
+      }
+  
+  .jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 100px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+   ul.gallery{    
+margin-left: 3vw;     
+margin-right:3vw;  
+}    
+
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+-ms-transform: scale(1.1);    
+-moz-transform: scale(1.1);  
+-webkit-transform: scale(1.1);  
+-o-transform: scale(1.1);  
+transform: scale(1.1);    
+position:relative;      
+z-index:100;  
+}
+@media only screen and (max-width: 768px) {   
+ul.gallery {      
+margin-left: 15vw;       
+margin-right: 15vw;
+}
